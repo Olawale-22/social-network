@@ -1,0 +1,10 @@
+-- +migrate Up
+CREATE TABLE IF NOT EXISTS GROUPS (
+	ID INTEGER PRIMARY KEY AUTOINCREMENT,
+	admin_id INTEGER NOT NULL,
+	group_name TEXT NOT NULL,
+	descriptions TEXT NOT NULL,
+    mentioned_users TEXT,
+	isrequested BOOLEAN NOT NULL,
+	FOREIGN KEY (admin_id) REFERENCES USERS(ID)
+);

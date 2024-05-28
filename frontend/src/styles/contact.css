@@ -1,0 +1,46 @@
+.user-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.title {
+    border-bottom: 1px solid black;
+    padding: 5px;
+}
+
+.user-card-image {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.user-card-username > a {
+    color: black;
+}
+
+.profile-image {
+    width: 40px;
+    height: 40px;
+}
+
+.username {
+    margin-left: 5px;
+    cursor: pointer ;
+}
+
+.buttons {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: white;
+}

@@ -1,0 +1,10 @@
+-- +migrate Up
+CREATE TABLE IF NOT EXISTS NOTIFICATIONS (
+	ID INTEGER PRIMARY KEY AUTOINCREMENT,
+	sender_id INTEGER NOT NULL,
+	recipients_id TEXT NOT NULL,
+    notification_type TEXT NOT NULL,
+	item_id INTEGER,
+	created_at DATETIME NOT NULL,
+	FOREIGN KEY (sender_id) REFERENCES USERS(ID)
+);

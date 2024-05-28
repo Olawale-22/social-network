@@ -1,0 +1,23 @@
+.container-notifications {
+    margin-top: 10px;
+    position: absolute;
+    top: 100%;
+    right: 10px;
+    width: 30%;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.notification {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.notification img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+}

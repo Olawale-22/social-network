@@ -1,0 +1,111 @@
+.private-chat-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.chat-container {
+    margin-top: 20px;
+    border-radius: 8px;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 800px;
+}
+
+.private-messages {
+    overflow: scroll;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    word-break: break-all;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.private-message {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    justify-content: space-around;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    background-color: #e5e8ec;
+    margin-bottom: 15px;
+}
+
+.private-message-date {
+    color: rgb(121, 120, 120);
+}
+
+.space {
+    align-self: flex-end;
+    background-color: rgb(212, 163, 71);
+}
+
+.private-message img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%
+}
+
+.form-elements {
+    position: relative;
+    display: flex;
+
+}
+
+.message-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-grow: 2;
+    padding-left: 10px;
+    flex-grow: 6;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid rgb(226, 224, 224);
+    margin-right: 10px;
+}
+
+.message-wrapper img {
+    width: 16px;
+    position: absolute;
+    right: 10px;
+    /* Ajustez la position de l'icône en fonction de vos besoins */
+    top: 50%;
+    /* Ajustez la position de l'icône en fonction de vos besoins */
+    transform: translateY(-50%);
+}
+
+.message-wrapper input {
+    border: none;
+}
+
+.message-wrapper input {
+    width: 90%;
+    border: none;
+    outline: none;
+}
+
+.form-elements button {
+    color: white;
+    background-color: #007bff;
+    width: 20px;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    flex-grow: 1;
+}
+
+.emojis-wrapper {
+    width: 97%;
+    position: absolute;
+    bottom: 45px;
+}

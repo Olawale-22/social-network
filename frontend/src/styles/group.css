@@ -1,0 +1,112 @@
+.container-groups {
+  min-height: 100vh;
+  display: flex;
+}
+
+.search-side {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  width: 30%;
+  max-width: 400px;
+  padding: 15px;
+  height: 100vh;
+}
+
+.search-group {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.lower-opacity {
+  opacity: 0.5;
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  width: 100%;
+  margin-top: 15px;
+}
+
+.form-group form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group h2 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.form-group form label {
+  font-weight: bolder;
+}
+
+.form-group form input[type="text"] {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.btn-create-group button,
+.form-group form button {
+  color: white;
+  background-color: #007bff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+}
+
+.form-group form button {
+  width: 50%;
+}
+
+.create-group-wrapper {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.groups {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  height: fit-content;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  flex-grow: 3;
+  gap: 10px;
+  margin-top: 25px;
+}
+
+.groups a {
+  width: 25%;
+  height: fit-content;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  width: 30%;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.group-header {
+  text-align: center;
+}
+
+
+a .group {
+  color: black;
+  width: 100%;
+}

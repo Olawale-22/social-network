@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #F0F2F5;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.avatar-mentioned {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.search-mentions {
+  border: 1px solid black;
+  width: 100%;
+  height: 40%;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+
+.results {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.results li {
+  padding: 5px;
+  background-color: #EBF5FF;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.results li span {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.users-mentioned {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 10px;
+  padding: 15px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  border: 1px solid rgb(65, 65, 65);
+}
+
+.avatar-mentioned {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.users-mentioned li {
+  display: flex;
+  align-items: center;
+}
+
+.users-mentioned li:hover {
+  background-color: #e7e6e6;
+  cursor: pointer;
+}

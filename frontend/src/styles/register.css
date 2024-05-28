@@ -1,0 +1,88 @@
+.container-register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    /* Couleur de fond de la page */
+}
+
+.form-register {
+    background-color: #fff;
+    /* Couleur de fond du formulaire */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 80%;
+    max-width: 400px;
+    /* Largeur maximale du formulaire */
+}
+
+.form-register > button {
+
+}
+
+.form-register h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    /* Couleur du texte du titre */
+}
+
+.form-register-label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.form-register input[type="file"] {
+    margin-bottom: 20px;
+}
+
+.form-register input:not(input[type="file"]) {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    /* Couleur de la bordure des champs */
+    border-radius: 5px;
+}
+
+
+
+.form-register textarea {
+    width: 100%;
+}
+
+.form-register-btn {
+    text-align: center;
+}
+
+.form-upload button {
+    background-color: rgb(105, 104, 104);
+    /* Couleur de fond du bouton */
+    color: #fff;
+    /* Couleur du texte du bouton */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-register-btn button {
+    background-color: #007bff;
+    /* Couleur de fond du bouton */
+    color: #fff;
+    /* Couleur du texte du bouton */
+    border: none;
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-register-btn button:hover {
+    background-color: #0056b3;
+}
